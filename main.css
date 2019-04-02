@@ -18,9 +18,15 @@
   flex-grow: 1;
 }
 
+#cont1{
+  background: url('./media-files/one-bolivia-salt-flats.jpg')no-repeat center center;
+  background-size: auto;
+  flex-grow: 4;
+}
+
 #cont2{
   /* width: 10vw; */
-  flex-grow: 3;
+  /* flex-grow: 3; */
 }
 
 #cont3{

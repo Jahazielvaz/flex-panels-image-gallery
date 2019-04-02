@@ -8,4 +8,16 @@ REQUIREMENTS
 -When a section expands, have it reveal text on top and at the bottom, to form another sentence.
 -When a transition happens, make sure it happens smoothly
 
-THINGS I'VE LEARNED 
+THINGS I'VE LEARNED
+
+
+SENTENCES USED FOR THIS PROJECT
+MAIN: LIFE IS TO BE EXPLORED
+SUBS:
+-Life: Make Life Happen
+-Is: Today Is Perfect
+-To: Get To It
+-Be: Don't Be Lazy
+-Cherished: Remember Cherished Moments
+
+IMAGE DIMENSIONS: 730 width X 700 height. Background size auto. Position not fixed. 
