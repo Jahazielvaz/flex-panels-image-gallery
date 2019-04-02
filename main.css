@@ -5,25 +5,23 @@
   margin: 0;
 }
 
-.container{
-  border: 2px solid black;
-  height: 100vh;
-  width: 25vw;
-}
-
-#cont2{
-  width: 10vw;
-}
-
-/* #cont1 #cont2{
-  justify-content: flex-start;
-} */
-
-#cont4{
-  justify-content: flex-end;
-}
-
 #main-container{
   display: flex;
   border: 2px solid orange;
+
+}
+
+
+.container{
+  border: 2px solid black;
+  height: 100vh;
+  flex-grow: .5;
+}
+
+#cont2{
+  /* width: 10vw; */
+}
+
+#cont3{
+  flex-grow: 2;
 }
