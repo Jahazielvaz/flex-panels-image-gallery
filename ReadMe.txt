@@ -18,6 +18,6 @@ SUBS:
 -Is: Today Is Perfect
 -To: Get To It
 -Be: Don't Be Lazy
--Cherished: Remember Cherished Moments
+-Full: Have Full Joy
 
-IMAGE DIMENSIONS: 730 width X 700 height. Background size auto. Position not fixed. 
+IMAGE DIMENSIONS: 730 width X 700 height. Background size auto. Position not fixed.

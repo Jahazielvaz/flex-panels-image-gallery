@@ -18,7 +18,6 @@
 }
 
 .sub-text{
-  border: 2px solid green;
   height: 33vh;
   color: white;
   text-shadow: 3px 3px 10px black;
@@ -33,13 +32,13 @@
 #cont1{
   background: url('./media-files/one-bolivia-salt-flats.jpg')no-repeat center center;
   background-size: auto;
-
+  /* flex-grow: 3; */
 }
 
 #cont2{
   background: url('./media-files/two-chiang-mai.jpg')no-repeat center center;
   background-size: auto;
-
+  flex-grow: 4;
 }
 
 #cont3{
