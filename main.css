@@ -15,13 +15,14 @@
 .container{
   border: 2px solid black;
   height: 100vh;
-  flex-grow: .5;
+  flex-grow: 1;
 }
 
 #cont2{
   /* width: 10vw; */
+  flex-grow: 3;
 }
 
 #cont3{
-  flex-grow: 2;
+
 }
