@@ -9,6 +9,7 @@ REQUIREMENTS
 -When a transition happens, make sure it happens smoothly
 
 THINGS I'VE LEARNED
+-I painfully made a serious discovery with destructuring. It took me forever to figure this out. With destructuring, it works on objects, and arrays but you have to make sure you use the matching datatype to destructure. So if you're destructuring an object, make sure you set up the destructure as an object. If you're destructuring an array, make sure you're setting it up with the array. If you have an array of objects, then set the array, and objects inside. 
 
 
 SENTENCES USED FOR THIS PROJECT

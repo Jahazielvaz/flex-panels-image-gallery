@@ -1,8 +1,15 @@
+let getElem = element => document.getElementById(element);
+
+let containers = [
+  getElem('cont1'),
+  getElem('life-one'),
+  getElem('life-two'),
+  getElem('life-main')
+]
+//
+let [containerOne, lifeOne, lifeTwo, lifeMain] = containers;
+
 let expandFunc = () => {
-  let lifeOne = document.getElementById('life-one');
-  let lifeTwo = document.getElementById('life-two');
-  let containerOne = document.getElementById('cont1');
-  let lifeMain = document.getElementById('life-main');
   lifeOne.innerHTML = "MAKE";
   lifeTwo.innerHTML = "HAPPEN";
   lifeMain.classList.add('main-text');
