@@ -24,21 +24,16 @@ let expandFunc = () => {
 
 }
 
+containerOne.addEventListener('click', expandFunc, false);
+
 let expandFunc2 = () => {
   isOne.innerHTML = "CHANGE";
   isTwo.innerHTML = "FREEDOM";
   isMain.classList.add('main-text');
   containerTwo.classList.add('container-two');
+
 }
 
-containerOne.addEventListener('click', expandFunc);
-containerOne.removeEventListener('click', expandFunc);
+
 containerTwo.addEventListener('click', expandFunc2);
-
-let eventRemover = () => {
-  if(expandFunc){
-    containerTwo.removeEventListener('', expandFunc2);
-  }
-}
-
-eventRemover();
+containerTwo.addEventListener('click', () => containerOne.removeEventListener('click', expandFunc, false));
