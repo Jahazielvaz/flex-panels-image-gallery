@@ -21,3 +21,8 @@ SUBS:
 -Full: Have Full Joy
 
 IMAGE DIMENSIONS: 730 width X 700 height. Background size auto. Position not fixed.
+
+LIST OF THINGS THAT NEED TO BE DYNAMICALLY ADDED
+-.main-text
+-.container2
+- Text to both the top and the bottom of each section

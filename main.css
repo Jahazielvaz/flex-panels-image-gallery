@@ -25,6 +25,7 @@
   font-size: 35px;
 }
 
+/* Dynamically added classes */
 .main-text{
   font-size: 55px;
 }
@@ -33,28 +34,30 @@
   background: url('./media-files/one-bolivia-salt-flats.jpg')no-repeat center center;
   background-size: auto;
   /* flex-grow: 3; */
+  transition: 1s;
 }
 
 #cont2{
   background: url('./media-files/two-chiang-mai.jpg')no-repeat center center;
   background-size: auto;
-  flex-grow: 4;
+  transition: 1s;
 }
 
 #cont3{
   background: url('./media-files/three-friends.jpg')no-repeat center center;
   background-size: auto;
-
+  transition: 1s;
 }
 
 #cont4{
   background: url('./media-files/four-Keukenhof.jpg')no-repeat center center;
   background-size: auto;
-
+  transition: 1s;
 }
 
 #cont5{
   background: url('./media-files/five-arches.jpg')no-repeat center center;
   background-size: auto;
   flex-grow: 1;
+  transition: 1s;
 }
