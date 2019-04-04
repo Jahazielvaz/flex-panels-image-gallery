@@ -9,7 +9,15 @@ REQUIREMENTS
 -When a transition happens, make sure it happens smoothly
 
 THINGS I'VE LEARNED
--I painfully made a serious discovery with destructuring. It took me forever to figure this out. With destructuring, it works on objects, and arrays but you have to make sure you use the matching datatype to destructure. So if you're destructuring an object, make sure you set up the destructure as an object. If you're destructuring an array, make sure you're setting it up with the array. If you have an array of objects, then set the array, and objects inside. 
+-I painfully made a serious discovery with destructuring. It took me forever to figure this out. With destructuring, it works on objects, and arrays but you have to make sure you use the matching datatype to destructure. So if you're destructuring an object, make sure you set up the destructure as an object. If you're destructuring an array, make sure you're setting it up with the array. If you have an array of objects, then set the array, and objects inside.
+
+-When you want to add an event to multiple elements, or in general if you ever want to iterate through a bunch of stuff and give it functions, don't forget forEach. It's great for this kind of stuff
+
+-Toggle functions are extremely efficient, for switching effects without you having to clear all the event listeners.
+
+-In order to have something close and open as an effect, you can use the beziers which are a part of the transition.
+
+- .name-of-class > * {} : In CSS the greater than means, select only the children elements that apply. so in this particular example, you're saying select all the children element of name-of-class
 
 
 SENTENCES USED FOR THIS PROJECT
