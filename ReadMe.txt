@@ -19,9 +19,12 @@ THINGS I'VE LEARNED
 
 - .name-of-class > * {} : In CSS the greater than means, select only the children elements that apply. so in this particular example, you're saying select all the children element of name-of-class
 
+- .name-of-class > *:first-child{} : This would target every first child of every container with the name of name-of-class
+NOTE: You have to make sure *:first-child are all together. This * :first-child wont work. 
+
 - justify-content: center; : Makes it so everything aligns center from left to right.
 
-- align-items: center ; : Makes it so everything aligns center from top to bottom. NOTE: It doesn't inherit so the grandchildren of the justify-content or align-items will not be affected at all. Only the direct children. 
+- align-items: center ; : Makes it so everything aligns center from top to bottom. NOTE: It doesn't inherit so the grandchildren of the justify-content or align-items will not be affected at all. Only the direct children.
 
 
 SENTENCES USED FOR THIS PROJECT
