@@ -20,7 +20,7 @@ THINGS I'VE LEARNED
 - .name-of-class > * {} : In CSS the greater than means, select only the children elements that apply. so in this particular example, you're saying select all the children element of name-of-class
 
 - .name-of-class > *:first-child{} : This would target every first child of every container with the name of name-of-class
-NOTE: You have to make sure *:first-child are all together. This * :first-child wont work. 
+NOTE: You have to make sure *:first-child are all together. This * :first-child wont work.
 
 - justify-content: center; : Makes it so everything aligns center from left to right.
 
@@ -42,3 +42,8 @@ LIST OF THINGS THAT NEED TO BE DYNAMICALLY ADDED
 -.main-text
 -.container2
 - Text to both the top and the bottom of each section
+
+FINAL REPORT/FEEDBACK
+-I had to stop and redo the whole thing. Furthermore, I had to follow the tutorial step by step and was not able to come up with my own solution. I'll need to seriously practice all these concepts to make sure I can pull off something like this in the future.
+
+GAMEPLAN: Need to come up with another project that uses all these principles, and I need to build it from scratch without having a specific guide for it. Furthermore there are a bunch of topics that I need to explore deeper to make sure that I have a good grasp on them such as: cubic beziers (I need to know exactly how they work, what all the options are, etc), flexbox (I need to do a bunch of projects that are flexbox heavy, until I get a really good grasp of it.), toggle functions (I need to make sure I know how to build them, and then I need to do a bunch of projects that require lots of toggle, so that I become really efficient with them), adding classes on top of classes. Dynamically adding classes (I need to make sure that I know exactly when and why it works, and when and why it doesn't work), js events and specifically how to remove events. 
