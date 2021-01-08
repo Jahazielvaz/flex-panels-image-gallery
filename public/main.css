@@ -8,27 +8,27 @@
 /* IMAGES */
 #cont1{
   background: url('./media-files/one-bolivia-salt-flats.jpg')center center no-repeat;
-  background-size: auto;
+  background-size: cover;
 }
 
 #cont2{
   background: url('./media-files/two-chiang-mai.jpg')center center no-repeat;
-  background-size: auto;
+  background-size: cover;
 }
 
 #cont3{
   background: url('./media-files/three-friends.jpg')center center no-repeat;
-  background-size: auto;
+  background-size: cover;
 }
 
 #cont4{
   background: url('./media-files/four-Keukenhof.jpg')center center no-repeat;
-  background-size: auto;
+  background-size: cover;
 }
 
 #cont5{
   background: url('./media-files/five-arches.jpg')center center no-repeat;
-  background-size: auto;
+  background-size: cover;
 }
 
 .panels{
@@ -37,7 +37,7 @@
   flex-grow: 1;
   overflow: hidden;
   min-height: 100vh;
-
+  background: #222;
 }
 
 .panel{
